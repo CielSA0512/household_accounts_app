@@ -19,6 +19,10 @@ default: &default
 
 development:
   <<: *default
+  adapter: mysql2
+  username: root
+  password:
+  host: localhost
   database: household_accounts_app_development
 
 # Warning: The database defined as "test" will be erased and
@@ -50,6 +54,8 @@ test:
 #
 production:
   <<: *default
+  adapter: postgresql
   database: household_accounts_app_production
   username: household_accounts_app
   password: <%= ENV["HOUSEHOLD_ACCOUNTS_APP_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
