@@ -1,0 +1,61 @@
+/* リセットCSS */
+* {
+  box-sizing: border-box;
+}
+
+/* ヘッダー */
+.header{
+  padding: 20px 0;
+}
+
+.container{
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  text-align: center;
+  line-height: 50px;
+}
+
+.title-head{
+  background-color: aqua;
+  width: 20%;
+}
+
+.user-head{
+  background-color: antiquewhite;
+  width: calc(100vw - 20%);
+}
+
+.user-menu{
+  float: right;
+}
+
+.nav__btn{
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav__logout{
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* メイン */
+.main-body{
+  height: calc(100vh - 100px);
+  width: 100vw;
+  background-color: azure;
+}
+
+/* フッター */
+.footer{
+  background-color: #999;
+  height: 50px;
+  padding: 10px 0;
+}
+
+.app-footer{
+  text-align: center;
+  color:#fff;
+  font-size: 10px;
+}

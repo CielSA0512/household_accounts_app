@@ -1,2 +1,7 @@
-<h1>Spends#index</h1>
-<p>Find me in app/views/spends/index.html.erb</p>
+<main class="main-body">
+    <% if user_signed_in? %>
+      <div class="#">
+        <%= link_to "ログインしています。", "#", class:[] %>
+      </div>
+    <% end %>
+</main>
