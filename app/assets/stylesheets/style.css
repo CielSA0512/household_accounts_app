@@ -19,25 +19,38 @@
 .title-head{
   background-color: aqua;
   width: 20%;
+  padding: 0 10px;
 }
 
 .user-head{
   background-color: antiquewhite;
   width: calc(100vw - 20%);
+  padding: 0 30px 0 10px;
 }
 
 .user-menu{
   float: right;
 }
 
+.user_menu_btn{
+  opacity: 1;
+  padding: 0 24px;
+}
+
+.nav__user{
+  text-decoration: none;
+}
+
 .nav__btn{
   text-decoration: none;
-  display: inline-block;
 }
 
 .nav__logout{
   text-decoration: none;
-  display: inline-block;
+}
+
+.hidden{
+  display: none;
 }
 
 /* メイン */
