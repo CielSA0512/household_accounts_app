@@ -1,9 +1,14 @@
 <main class="main-body">
+  <div class="wrapper">
     <% if user_signed_in? %>
-      <div class="#">
-        ログインしています。
+      <div class="main-wrapper">
+        <%# <% @spends.each do |spend| %>
+
+        <%# <% end %>
+        <%# <%= render partial: "form"%>
       </div>
     <% else %>
       ログインしてください。
     <% end %>
+  </div>
 </main>

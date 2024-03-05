@@ -58,6 +58,18 @@
   height: calc(100vh - 100px);
   width: 100vw;
   background-color: azure;
+  padding: 10px;
+}
+
+.wrapper{
+  height: 100%;
+  width: 100%;
+}
+
+.main-wrapper{
+  height: 50%;
+  width: 50%;
+  background-color: aquamarine;
 }
 
 /* フッター */
