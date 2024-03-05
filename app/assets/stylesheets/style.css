@@ -17,9 +17,15 @@
 }
 
 .title-head{
-  background-color: aqua;
+  background-color: darkgrey;
   width: 20%;
   padding: 0 10px;
+}
+
+.title__btn{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .user-head{
@@ -43,10 +49,12 @@
 
 .nav__btn{
   text-decoration: none;
+  color: cornflowerblue;
 }
 
 .nav__logout{
   text-decoration: none;
+  color: red;
 }
 
 .hidden{

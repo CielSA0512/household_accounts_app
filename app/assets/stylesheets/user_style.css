@@ -1,0 +1,60 @@
+/* リセットCSS */
+* {
+  box-sizing: border-box;
+}
+
+/* ユーザー詳細 */
+.user-wrapper{
+  height: 90%;
+  width: 70%;
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.account{
+  padding: 15px 0;
+  font-weight: bold;
+  border-bottom: 2px solid gray;
+}
+
+.user-main-wrapper{
+  padding: 50px;
+}
+
+.bar-title{
+  width: 100px;
+  border-bottom: 2px solid gray;
+}
+
+.user-about{
+  display: flex;
+  align-items: center;
+}
+
+.user-info{
+  width: 40%;
+  margin-right: 400px;
+}
+
+.user-name{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.user-email{
+  font-size: 20px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.edit_btn{
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+  height: 34px;
+  padding: 0 20px;
+  line-height: 34px;
+  background-color: red;
+}

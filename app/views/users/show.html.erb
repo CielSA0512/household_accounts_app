@@ -1,0 +1,21 @@
+<main class="main-body">
+  <div class="user-wrapper">
+      <h1 class="account">アカウント</h1>
+    <div class="user-main-wrapper">
+      <h2 class="bar-title">基本情報</h2>
+        <div class="user-about">
+          <div class="user-info">
+            <div class="user-name">
+              ユーザー名：
+              <%= current_user.nickname %>
+            </div>
+            <div class="user-email">
+              メールアドレス：
+              <%= current_user.email %>
+            </div>
+          </div>
+            <%= link_to "編集する", "#", class:"edit_btn" %>
+        </div>
+    </div>
+  </div>
+</main>
