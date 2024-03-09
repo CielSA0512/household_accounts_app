@@ -77,3 +77,6 @@ end
 
 gem 'devise'
 gem 'pry-rails'
+gem 'google_drive'
+gem "google-apis-sheets_v4"
+gem "json"

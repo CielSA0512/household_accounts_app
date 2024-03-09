@@ -1,0 +1,22 @@
+current directory: /home/ktf518/oriapp/household_accounts_app/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+/home/ktf518/.rbenv/versions/3.2.0/bin/ruby -I /home/ktf518/.rbenv/versions/3.2.0/lib/ruby/3.2.0 extconf.rb
+checking for fdatasync() in unistd.h... yes
+checking for whether -D_GNU_SOURCE is accepted as CPPFLAGS... yes
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /home/ktf518/oriapp/household_accounts_app/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240308-97209-z9vkmk sitelibdir\=./.gem.20240308-97209-z9vkmk clean
+
+current directory: /home/ktf518/oriapp/household_accounts_app/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240308-97209-z9vkmk sitelibdir\=./.gem.20240308-97209-z9vkmk
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/ktf518/oriapp/household_accounts_app/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240308-97209-z9vkmk sitelibdir\=./.gem.20240308-97209-z9vkmk install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20240308-97209-z9vkmk/bootsnap
+
+current directory: /home/ktf518/oriapp/household_accounts_app/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240308-97209-z9vkmk sitelibdir\=./.gem.20240308-97209-z9vkmk clean

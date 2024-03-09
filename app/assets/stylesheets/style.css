@@ -69,15 +69,17 @@
   padding: 10px;
 }
 
-.wrapper{
-  height: 100%;
-  width: 100%;
+.main-table{
+  display:flex;
+  width: 100vw;
 }
 
-.main-wrapper{
-  height: 50%;
-  width: 50%;
-  background-color: aquamarine;
+.left-side{
+  width: 70%;
+}
+
+.right-side{
+  width: 30%;
 }
 
 /* フッター */

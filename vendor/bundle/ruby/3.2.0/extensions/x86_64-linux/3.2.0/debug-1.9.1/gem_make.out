@@ -1,0 +1,19 @@
+current directory: /home/ktf518/oriapp/household_accounts_app/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+/home/ktf518/.rbenv/versions/3.2.0/bin/ruby -I /home/ktf518/.rbenv/versions/3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /home/ktf518/oriapp/household_accounts_app/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240308-97209-njn962 sitelibdir\=./.gem.20240308-97209-njn962 clean
+
+current directory: /home/ktf518/oriapp/household_accounts_app/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240308-97209-njn962 sitelibdir\=./.gem.20240308-97209-njn962
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/ktf518/oriapp/household_accounts_app/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240308-97209-njn962 sitelibdir\=./.gem.20240308-97209-njn962 install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20240308-97209-njn962/debug
+
+current directory: /home/ktf518/oriapp/household_accounts_app/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240308-97209-njn962 sitelibdir\=./.gem.20240308-97209-njn962 clean

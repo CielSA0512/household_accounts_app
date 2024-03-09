@@ -1,0 +1,18 @@
+current directory: /home/ktf518/oriapp/household_accounts_app/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+/home/ktf518/.rbenv/versions/3.2.0/bin/ruby -I /home/ktf518/.rbenv/versions/3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /home/ktf518/oriapp/household_accounts_app/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240308-97209-81icg8 sitelibdir\=./.gem.20240308-97209-81icg8 clean
+
+current directory: /home/ktf518/oriapp/household_accounts_app/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240308-97209-81icg8 sitelibdir\=./.gem.20240308-97209-81icg8
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/ktf518/oriapp/household_accounts_app/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240308-97209-81icg8 sitelibdir\=./.gem.20240308-97209-81icg8 install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20240308-97209-81icg8/racc
+
+current directory: /home/ktf518/oriapp/household_accounts_app/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240308-97209-81icg8 sitelibdir\=./.gem.20240308-97209-81icg8 clean
