@@ -36,7 +36,7 @@ class SpendsController < ApplicationController
   private
   def set_spreadsheet
     session = GoogleDrive::Session.from_config("config.json")
-    @sp = session.spreadsheet_by_url("https://docs.google.com/spreadsheets/d/19-HxvXjeOlCLvF943Kgn8e3Hdu_tyMdhf3eIdVYhfwg").worksheet_by_title("フォームの回答 1")
+    @sp = session.spreadsheet_by_url(ENV["SPREAD_URL"]).worksheet_by_title("フォームの回答 1")
   end
 end
  
